@@ -3,61 +3,56 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
-
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title: "Banglong Fu"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name: &name "Banglong Fu"
+description: &description "Banglong Fu | Finance and Financial Econometrics"
+url: "https://banglongfu.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
-
+baseurl: ""
+repository: "banglongfu/banglongfu.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar: 
+  name: "Banglong Fu"
+  pronouns         : # example: "she/her"
+  bio: "Ph.D. student in Finance, Peking University"
+  location: "Beijing, China"
+  employer: "Peking University"
   uri              : # URL
-  email            : "none@example.org" 
-
+  email: 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar: 
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid: 
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed: 
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
-
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
+  github: "banglongfu"
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky: 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -81,16 +76,14 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
-
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
-
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
@@ -127,15 +120,11 @@ staticman:
 atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
-
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
-
 # Social Sharing
 twitter:
   username               : &twitter
@@ -151,15 +140,11 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
-
 # Reading Files
 include:
   - .htaccess
@@ -197,8 +182,6 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -217,8 +200,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
 # These settings control the types of collections used by the template
 collections:
   teaching:
@@ -233,8 +214,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
-
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
@@ -290,8 +269,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -313,7 +290,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
@@ -322,8 +298,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -351,8 +325,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
