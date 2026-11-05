@@ -9,6 +9,8 @@ I am a Ph.D. student in Finance at the School of Economics, Peking University. M
 
 **Email:** fbl [at] pku.edu.cn
 
+[CV](/files/CV_Banglong_Fu (personal website).pdf)
+
 ## Research Interests
 
 Financial econometrics; factor models; latent group structures; asset pricing.
