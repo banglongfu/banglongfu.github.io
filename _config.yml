@@ -21,7 +21,7 @@ repository: "banglongfu/banglongfu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: 
+  avatar: profile.png
   name: "Banglong Fu"
   pronouns         : # example: "she/her"
   bio: "Ph.D. student in Finance, Peking University"
@@ -31,7 +31,7 @@ author:
   email: 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : # URL - Update with the correct link to your 
   googlescholar: 
   inspire-hep      : # URL
   impactstory      : # URL
@@ -134,7 +134,7 @@ facebook:
   publisher              :
 og_image                 : og-image.png   # Social media default site image (lives in /images/)
 og_description           :  # Social media default site image description
-# For specifying social profiles
+# For specifying social s
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
